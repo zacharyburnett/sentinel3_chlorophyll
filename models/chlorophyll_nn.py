@@ -1,5 +1,5 @@
 # https://pytorch.org/tutorials/beginner/pytorch_with_examples.html
-from datetime import datetime
+from datetime import datetime, timedelta
 import math
 
 from matplotlib import pyplot
@@ -57,6 +57,8 @@ if __name__ == '__main__':
     # use Adam algorithm with liberal learning rate to start
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
+    start_time = datetime.now()
+
     times = [datetime.now()]
     losses = [0]
     for optimize_index in range(20000):
@@ -69,6 +71,8 @@ if __name__ == '__main__':
         optimizer.zero_grad()
         mse_loss.backward()
         optimizer.step()
+
+    print(f'optimization took {(start_time - datetime.now()) / timedelta(seconds=1)} seconds')
 
     figure = pyplot.figure()
     figure.suptitle('loss')
@@ -87,9 +91,9 @@ if __name__ == '__main__':
           f'standard deviation of validation chlorophyll:            {numpy.std(validation_chlorophyll_data)}')
 
     testing_chlorophyll_tensor = model(testing_reflectance_tensor)
-    testing_predicted_chlorophyll = validation_chlorophyll_tensor.detach().cpu().numpy()
+    testing_predicted_chlorophyll = testing_chlorophyll_tensor.detach().cpu().numpy()
 
-    testing_data_frame.insert(-1, 'Chl', testing_predicted_chlorophyll, True)
+    testing_data_frame.insert(len(testing_data_frame.columns), 'Chl', testing_predicted_chlorophyll, True)
     testing_data_frame.to_csv(OUTPUT_TESTING_CSV_FILENAME)
 
     print('done')
