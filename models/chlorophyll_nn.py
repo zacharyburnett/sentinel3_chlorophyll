@@ -1,0 +1,95 @@
+# https://pytorch.org/tutorials/beginner/pytorch_with_examples.html
+from datetime import datetime
+import math
+
+from matplotlib import pyplot
+import numpy
+import pandas
+import torch
+
+TRAINING_CSV_FILENAME = '../data/training.csv'
+VALIDATION_CSV_FILENAME = '../data/validation.csv'
+INPUT_TESTING_CSV_FILENAME = '../data/testing.csv'
+OUTPUT_TESTING_CSV_FILENAME = '../data/testing_output.csv'
+
+if __name__ == '__main__':
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+    tensor_data_type = torch.float
+
+    # load data from files
+    training_data_frame = pandas.read_csv(TRAINING_CSV_FILENAME)
+    validation_data_frame = pandas.read_csv(VALIDATION_CSV_FILENAME)
+    testing_data_frame = pandas.read_csv(INPUT_TESTING_CSV_FILENAME)
+    columns = training_data_frame.columns
+
+    training_data = training_data_frame.to_numpy()
+    validation_data = validation_data_frame.to_numpy()
+    testing_data = testing_data_frame.to_numpy()
+
+    # size of input per-site (all wavelengths)
+    D_in = 16
+    # size of output per-site (just chlorophyll)
+    D_out = 1
+    # size of hidden layer
+    H = math.ceil(D_in * 2 / 3 + D_out)
+
+    training_reflectance_tensor = torch.tensor(training_data[:, :-1], device=device, dtype=tensor_data_type)
+    training_chlorophyll_tensor = torch.tensor(numpy.expand_dims(training_data[:, -1], axis=1), device=device, dtype=tensor_data_type)
+    validation_reflectance_tensor = torch.tensor(validation_data[:, :-1], device=device, dtype=tensor_data_type)
+    validation_chlorophyll_data = numpy.expand_dims(validation_data[:, -1], axis=1)
+
+    testing_reflectance_tensor = torch.tensor(testing_data, device=device, dtype=tensor_data_type)
+
+    model = torch.nn.Sequential(
+        torch.nn.Linear(D_in, H),
+        torch.nn.ReLU(),
+        torch.nn.Linear(H, D_out)
+    )
+    if torch.cuda.is_available():
+        model.cuda()
+
+    # define loss function as sum of mean square error
+    loss_function = torch.nn.MSELoss(reduction='sum')
+
+    learning_rate = 0.01
+
+    # use Adam algorithm with liberal learning rate to start
+    optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+
+    times = [datetime.now()]
+    losses = [0]
+    for optimize_index in range(20000):
+        predicted_chlorophyll = model(training_reflectance_tensor)
+        mse_loss = loss_function(predicted_chlorophyll, training_chlorophyll_tensor)
+        if optimize_index % 100 == 0:
+            losses.append(mse_loss.item())
+            times.append(datetime.now())
+            print(f'{optimize_index:>6} - {losses[-1]:>12} ({losses[-1] - losses[-2]:>12} difference) - learning rates: {[param_group["lr"] for param_group in optimizer.param_groups]}')
+        optimizer.zero_grad()
+        mse_loss.backward()
+        optimizer.step()
+
+    figure = pyplot.figure()
+    figure.suptitle('loss')
+    axis = figure.add_subplot(1, 1, 1)
+    axis.plot(times, losses, label='loss')
+    axis.plot(times, numpy.concatenate(([0], numpy.diff(losses))), label='loss dx')
+    axis.legend()
+
+    pyplot.show()
+
+    validation_chlorophyll_tensor = model(validation_reflectance_tensor)
+    validation_predicted_chlorophyll = validation_chlorophyll_tensor.detach().cpu().numpy()
+    validation_differences = validation_chlorophyll_data - validation_predicted_chlorophyll
+    validation_rmse = numpy.sqrt(numpy.mean(numpy.square(validation_differences)))
+    print(f'RMSE of validation chlorophyll vs predicted chlorophyll: {validation_rmse}\n'
+          f'standard deviation of validation chlorophyll:            {numpy.std(validation_chlorophyll_data)}')
+
+    testing_chlorophyll_tensor = model(testing_reflectance_tensor)
+    testing_predicted_chlorophyll = validation_chlorophyll_tensor.detach().cpu().numpy()
+
+    testing_data_frame.insert(-1, 'Chl', testing_predicted_chlorophyll, True)
+    testing_data_frame.to_csv(OUTPUT_TESTING_CSV_FILENAME)
+
+    print('done')
