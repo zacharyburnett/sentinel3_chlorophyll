@@ -1,0 +1,13 @@
+name: sentinel3_chlorophyll
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - cudatoolkit=10.2
+  - geopandas
+  - matplotlib
+  - numpy
+  - pandas
+  - python=3
+  - pytorch
+  - scipy
