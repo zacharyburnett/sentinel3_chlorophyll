@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# https://pytorch.org/tutorials/beginner/pytorch_with_examples.html#pytorch-optim
+
 import torch
 
 if __name__ == '__main__':
