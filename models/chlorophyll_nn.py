@@ -9,14 +9,14 @@ import numpy
 import pandas
 import torch
 
-from utilities.utilities import get_logger
+from models.utilities.utilities import get_logger
 
 LOGGER = get_logger('chlorophyll.nn', os.path.join(__file__, os.pardir, os.pardir, 'logs/chlorophyll_nn.log'))
 
 TRAINING_CSV_FILENAME = '../data/training.csv'
 VALIDATION_CSV_FILENAME = '../data/validation.csv'
-INPUT_TESTING_CSV_FILENAME = '../data/testing.csv'
-OUTPUT_TESTING_CSV_FILENAME = '../data/testing_output_nn.csv'
+INPUT_TESTING_CSV_FILENAME = '../outputs/0_input/testing.csv'
+OUTPUT_TESTING_CSV_FILENAME = '../outputs/1_autograd/testing.csv'
 
 if __name__ == '__main__':
     # take advantage of cuda device if it exists

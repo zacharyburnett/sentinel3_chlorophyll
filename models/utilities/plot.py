@@ -7,9 +7,9 @@ import numpy
 import pandas
 
 if __name__ == '__main__':
-    training_data = pandas.read_csv('../data/training.csv')
+    training_data = pandas.read_csv('../../data/training.csv')
     testing_data = pandas.read_csv('../data/testing.csv')
-    validation_data = pandas.read_csv('../data/validation.csv')
+    validation_data = pandas.read_csv('../../data/validation.csv')
 
     training_data = training_data.sort_values('Chl')
 
