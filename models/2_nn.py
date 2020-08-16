@@ -19,7 +19,7 @@ LOGGER = get_logger('chlorophyll.nn', os.path.join(__file__, os.pardir, '../outp
 
 TRAINING_CSV_FILENAME = '../data/training.csv'
 VALIDATION_CSV_FILENAME = '../data/validation.csv'
-INPUT_TESTING_CSV_FILENAME = '../outputs/0_input/testing.csv'
+INPUT_TESTING_CSV_FILENAME = '../outputs/0_training_data/testing.csv'
 OUTPUT_TESTING_CSV_FILENAME = '../outputs/2_nn/testing.csv'
 
 if __name__ == '__main__':
