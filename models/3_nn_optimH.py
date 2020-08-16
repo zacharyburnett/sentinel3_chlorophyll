@@ -15,7 +15,7 @@ import torch
 
 from models.utilities.utilities import get_logger
 
-LOGGER = get_logger('chlorophyll.nn', os.path.join(__file__, os.pardir, 'logs/3_nn_optimH.log'))
+LOGGER = get_logger('chlorophyll.nn', os.path.join(__file__, os.pardir, '../outputs/3_nn_optimH/3_nn_optimH.log'))
 
 TRAINING_CSV_FILENAME = '../data/training.csv'
 VALIDATION_CSV_FILENAME = '../data/validation.csv'
