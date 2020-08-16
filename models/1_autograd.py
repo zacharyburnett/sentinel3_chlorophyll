@@ -23,6 +23,17 @@ INPUT_TESTING_CSV_FILENAME = '../outputs/0_training_data/testing.csv'
 OUTPUT_TESTING_CSV_FILENAME = '../outputs/1_autograd/testing.csv'
 
 if __name__ == '__main__':
+    # size of input per-site (all wavelengths)
+    input_layer_size = 16
+    # size of output per-site (just chlorophyll)
+    output_layer_size = 1
+    # size of hidden layer
+    hidden_layer_size = math.ceil(input_layer_size * 2 / 3 + output_layer_size)
+
+    # iterate over specified number of passes at defined learning rate
+    learning_rate = 1e-8
+    passes = 10000
+
     # take advantage of cuda device if it exists
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -39,13 +50,6 @@ if __name__ == '__main__':
     training_data = training_data_frame.to_numpy()
     validation_data = validation_data_frame.to_numpy()
     testing_data = testing_data_frame.to_numpy()
-
-    # size of input per-site (all wavelengths)
-    input_layer_size = 16
-    # size of output per-site (just chlorophyll)
-    output_layer_size = 1
-    # size of hidden layer
-    hidden_layer_size = math.ceil(input_layer_size * 2 / 3 + output_layer_size)
 
     # training input / output tensors
     training_reflectance_tensor = torch.tensor(training_data[:, :-1], device=device, dtype=tensor_data_type)
@@ -67,10 +71,6 @@ if __name__ == '__main__':
     # hold times and losses here for plotting later
     times = [datetime.now()]
     losses = [0]
-
-    # iterate over specified passes at defined learning rate
-    learning_rate = 1e-8
-    passes = 10000
 
     LOGGER.info(f'starting {passes} optimization passes on autograd model ({input_layer_size}->{hidden_layer_size}->{output_layer_size}) w/ {learning_rate} learning rate')
 
@@ -128,5 +128,5 @@ if __name__ == '__main__':
     axis.axhline(y=0, color='k', linestyle='--')
     axis.legend()
     pyplot.show()
-    
+
     print('done')

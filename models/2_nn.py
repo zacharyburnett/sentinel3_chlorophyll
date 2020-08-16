@@ -23,6 +23,19 @@ INPUT_TESTING_CSV_FILENAME = '../outputs/0_training_data/testing.csv'
 OUTPUT_TESTING_CSV_FILENAME = '../outputs/2_nn/testing.csv'
 
 if __name__ == '__main__':
+    # size of input per-site (all wavelengths)
+    input_layer_size = 16
+    # size of output per-site (just chlorophyll)
+    output_layer_size = 1
+    # size of hidden layer
+    hidden_layer_size = math.ceil(input_layer_size * 2 / 3 + output_layer_size)
+
+    # define a liberal learning rate to use with optimizer
+    learning_rate = 0.001
+
+    # optimize model over the specified number of passes
+    passes = 10000
+
     # take advantage of cuda device if it exists
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -39,13 +52,6 @@ if __name__ == '__main__':
     training_data = training_data_frame.to_numpy()
     validation_data = validation_data_frame.to_numpy()
     testing_data = testing_data_frame.to_numpy()
-
-    # size of input per-site (all wavelengths)
-    input_layer_size = 16
-    # size of output per-site (just chlorophyll)
-    output_layer_size = 1
-    # size of hidden layer
-    hidden_layer_size = math.ceil(input_layer_size * 2 / 3 + output_layer_size)
 
     # training input / output tensors
     training_reflectance_tensor = torch.tensor(training_data[:, :-1], device=device, dtype=tensor_data_type)
@@ -78,11 +84,7 @@ if __name__ == '__main__':
     losses = [0]
 
     # use Adam algorithm with a liberal learning rate to start
-    learning_rate = 0.001
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
-
-    # optimize model over a specified number of iterations
-    passes = 10000
 
     LOGGER.info(f'starting {passes} optimization passes on NN model ({input_layer_size}->{hidden_layer_size}->{output_layer_size}) w/ {learning_rate} learning rate')
 
