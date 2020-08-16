@@ -1,0 +1,548 @@
+[2020-08-15 00:19:54,547] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->12->1) w/ 0.001 learning rate
+[2020-08-15 00:20:28,632] chlorophyll.nn       INFO    : optimization took 34.09 seconds
+[2020-08-15 00:20:28,632] chlorophyll.nn       INFO    : RMSE: 9.41; hidden layer size: 12
+[2020-08-15 00:20:28,632] chlorophyll.nn       INFO    : lowest RMSE: 9.41; hidden layer size of lowest RMSE: 12
+[2020-08-15 00:20:28,633] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->13->1) w/ 0.001 learning rate
+[2020-08-15 00:21:02,150] chlorophyll.nn       INFO    : optimization took 67.6 seconds
+[2020-08-15 00:21:02,150] chlorophyll.nn       INFO    : RMSE: 9.54; hidden layer size: 13
+[2020-08-15 00:21:02,150] chlorophyll.nn       INFO    : lowest RMSE: 9.41; hidden layer size of lowest RMSE: 12
+[2020-08-15 00:21:02,151] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->14->1) w/ 0.001 learning rate
+[2020-08-15 00:21:36,044] chlorophyll.nn       INFO    : optimization took 101.5 seconds
+[2020-08-15 00:21:36,044] chlorophyll.nn       INFO    : RMSE: 10.7; hidden layer size: 14
+[2020-08-15 00:21:36,044] chlorophyll.nn       INFO    : lowest RMSE: 9.41; hidden layer size of lowest RMSE: 12
+[2020-08-15 00:21:36,045] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->15->1) w/ 0.001 learning rate
+[2020-08-15 00:22:09,409] chlorophyll.nn       INFO    : optimization took 134.9 seconds
+[2020-08-15 00:22:09,409] chlorophyll.nn       INFO    : RMSE: 6.89; hidden layer size: 15
+[2020-08-15 00:22:09,409] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:22:09,410] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->16->1) w/ 0.001 learning rate
+[2020-08-15 00:22:45,198] chlorophyll.nn       INFO    : optimization took 170.7 seconds
+[2020-08-15 00:22:45,199] chlorophyll.nn       INFO    : RMSE: 11.0; hidden layer size: 16
+[2020-08-15 00:22:45,199] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:22:45,200] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->17->1) w/ 0.001 learning rate
+[2020-08-15 00:23:20,736] chlorophyll.nn       INFO    : optimization took 206.2 seconds
+[2020-08-15 00:23:20,737] chlorophyll.nn       INFO    : RMSE: 6.89; hidden layer size: 17
+[2020-08-15 00:23:20,737] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:23:20,739] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->18->1) w/ 0.001 learning rate
+[2020-08-15 00:23:57,788] chlorophyll.nn       INFO    : optimization took 243.2 seconds
+[2020-08-15 00:23:57,789] chlorophyll.nn       INFO    : RMSE: 9.72; hidden layer size: 18
+[2020-08-15 00:23:57,789] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:23:57,790] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->19->1) w/ 0.001 learning rate
+[2020-08-15 00:24:34,948] chlorophyll.nn       INFO    : optimization took 280.4 seconds
+[2020-08-15 00:24:34,948] chlorophyll.nn       INFO    : RMSE: 6.94; hidden layer size: 19
+[2020-08-15 00:24:34,948] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:24:34,949] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->20->1) w/ 0.001 learning rate
+[2020-08-15 00:25:13,848] chlorophyll.nn       INFO    : optimization took 319.3 seconds
+[2020-08-15 00:25:13,848] chlorophyll.nn       INFO    : RMSE: 7.07; hidden layer size: 20
+[2020-08-15 00:25:13,848] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:25:13,849] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->21->1) w/ 0.001 learning rate
+[2020-08-15 00:25:51,746] chlorophyll.nn       INFO    : optimization took 357.2 seconds
+[2020-08-15 00:25:51,746] chlorophyll.nn       INFO    : RMSE: 9.91; hidden layer size: 21
+[2020-08-15 00:25:51,747] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:25:51,748] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->22->1) w/ 0.001 learning rate
+[2020-08-15 00:26:29,873] chlorophyll.nn       INFO    : optimization took 395.3 seconds
+[2020-08-15 00:26:29,873] chlorophyll.nn       INFO    : RMSE: 7.06; hidden layer size: 22
+[2020-08-15 00:26:29,873] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:26:29,874] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->23->1) w/ 0.001 learning rate
+[2020-08-15 00:27:08,218] chlorophyll.nn       INFO    : optimization took 433.7 seconds
+[2020-08-15 00:27:08,218] chlorophyll.nn       INFO    : RMSE: 7.34; hidden layer size: 23
+[2020-08-15 00:27:08,219] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:27:08,220] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->24->1) w/ 0.001 learning rate
+[2020-08-15 00:27:50,446] chlorophyll.nn       INFO    : optimization took 475.9 seconds
+[2020-08-15 00:27:50,446] chlorophyll.nn       INFO    : RMSE: 10.9; hidden layer size: 24
+[2020-08-15 00:27:50,446] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:27:50,447] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->25->1) w/ 0.001 learning rate
+[2020-08-15 00:28:30,571] chlorophyll.nn       INFO    : optimization took 516.0 seconds
+[2020-08-15 00:28:30,571] chlorophyll.nn       INFO    : RMSE: 10.2; hidden layer size: 25
+[2020-08-15 00:28:30,571] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:28:30,572] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->26->1) w/ 0.001 learning rate
+[2020-08-15 00:29:11,882] chlorophyll.nn       INFO    : optimization took 557.3 seconds
+[2020-08-15 00:29:11,883] chlorophyll.nn       INFO    : RMSE: 10.2; hidden layer size: 26
+[2020-08-15 00:29:11,883] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:29:11,884] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->27->1) w/ 0.001 learning rate
+[2020-08-15 00:29:53,153] chlorophyll.nn       INFO    : optimization took 598.6 seconds
+[2020-08-15 00:29:53,153] chlorophyll.nn       INFO    : RMSE: 8.57; hidden layer size: 27
+[2020-08-15 00:29:53,154] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:29:53,155] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->28->1) w/ 0.001 learning rate
+[2020-08-15 00:30:35,868] chlorophyll.nn       INFO    : optimization took 641.3 seconds
+[2020-08-15 00:30:35,868] chlorophyll.nn       INFO    : RMSE: 11.0; hidden layer size: 28
+[2020-08-15 00:30:35,868] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:30:35,869] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->29->1) w/ 0.001 learning rate
+[2020-08-15 00:31:18,695] chlorophyll.nn       INFO    : optimization took 684.1 seconds
+[2020-08-15 00:31:18,696] chlorophyll.nn       INFO    : RMSE: 10.2; hidden layer size: 29
+[2020-08-15 00:31:18,696] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:31:18,697] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->30->1) w/ 0.001 learning rate
+[2020-08-15 00:32:02,062] chlorophyll.nn       INFO    : optimization took 727.5 seconds
+[2020-08-15 00:32:02,062] chlorophyll.nn       INFO    : RMSE: 9.71; hidden layer size: 30
+[2020-08-15 00:32:02,062] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:32:02,063] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->31->1) w/ 0.001 learning rate
+[2020-08-15 00:32:45,880] chlorophyll.nn       INFO    : optimization took 771.3 seconds
+[2020-08-15 00:32:45,880] chlorophyll.nn       INFO    : RMSE: 10.4; hidden layer size: 31
+[2020-08-15 00:32:45,880] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:32:45,881] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->32->1) w/ 0.001 learning rate
+[2020-08-15 00:33:28,197] chlorophyll.nn       INFO    : optimization took 813.7 seconds
+[2020-08-15 00:33:28,197] chlorophyll.nn       INFO    : RMSE: 10.4; hidden layer size: 32
+[2020-08-15 00:33:28,197] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:33:28,198] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->33->1) w/ 0.001 learning rate
+[2020-08-15 00:34:22,170] chlorophyll.nn       INFO    : optimization took 867.6 seconds
+[2020-08-15 00:34:22,170] chlorophyll.nn       INFO    : RMSE: 10.8; hidden layer size: 33
+[2020-08-15 00:34:22,171] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:34:22,171] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->34->1) w/ 0.001 learning rate
+[2020-08-15 00:35:17,215] chlorophyll.nn       INFO    : optimization took 922.7 seconds
+[2020-08-15 00:35:17,216] chlorophyll.nn       INFO    : RMSE: 8.7; hidden layer size: 34
+[2020-08-15 00:35:17,216] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:35:17,218] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->35->1) w/ 0.001 learning rate
+[2020-08-15 00:36:13,352] chlorophyll.nn       INFO    : optimization took 978.8 seconds
+[2020-08-15 00:36:13,352] chlorophyll.nn       INFO    : RMSE: 9.99; hidden layer size: 35
+[2020-08-15 00:36:13,352] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:36:13,353] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->36->1) w/ 0.001 learning rate
+[2020-08-15 00:37:10,846] chlorophyll.nn       INFO    : optimization took 1.036e+03 seconds
+[2020-08-15 00:37:10,846] chlorophyll.nn       INFO    : RMSE: 10.3; hidden layer size: 36
+[2020-08-15 00:37:10,846] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:37:10,847] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->37->1) w/ 0.001 learning rate
+[2020-08-15 00:38:08,045] chlorophyll.nn       INFO    : optimization took 1.093e+03 seconds
+[2020-08-15 00:38:08,045] chlorophyll.nn       INFO    : RMSE: 8.12; hidden layer size: 37
+[2020-08-15 00:38:08,046] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:38:08,046] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->38->1) w/ 0.001 learning rate
+[2020-08-15 00:39:04,925] chlorophyll.nn       INFO    : optimization took 1.15e+03 seconds
+[2020-08-15 00:39:04,925] chlorophyll.nn       INFO    : RMSE: 8.37; hidden layer size: 38
+[2020-08-15 00:39:04,925] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:39:04,926] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->39->1) w/ 0.001 learning rate
+[2020-08-15 00:40:02,364] chlorophyll.nn       INFO    : optimization took 1.208e+03 seconds
+[2020-08-15 00:40:02,364] chlorophyll.nn       INFO    : RMSE: 9.55; hidden layer size: 39
+[2020-08-15 00:40:02,364] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:40:02,365] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->40->1) w/ 0.001 learning rate
+[2020-08-15 00:41:01,733] chlorophyll.nn       INFO    : optimization took 1.267e+03 seconds
+[2020-08-15 00:41:01,733] chlorophyll.nn       INFO    : RMSE: 7.43; hidden layer size: 40
+[2020-08-15 00:41:01,733] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:41:01,734] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->41->1) w/ 0.001 learning rate
+[2020-08-15 00:42:00,144] chlorophyll.nn       INFO    : optimization took 1.326e+03 seconds
+[2020-08-15 00:42:00,144] chlorophyll.nn       INFO    : RMSE: 7.36; hidden layer size: 41
+[2020-08-15 00:42:00,144] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:42:00,145] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->42->1) w/ 0.001 learning rate
+[2020-08-15 00:42:59,250] chlorophyll.nn       INFO    : optimization took 1.385e+03 seconds
+[2020-08-15 00:42:59,251] chlorophyll.nn       INFO    : RMSE: 7.38; hidden layer size: 42
+[2020-08-15 00:42:59,251] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:42:59,252] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->43->1) w/ 0.001 learning rate
+[2020-08-15 00:43:59,505] chlorophyll.nn       INFO    : optimization took 1.445e+03 seconds
+[2020-08-15 00:43:59,506] chlorophyll.nn       INFO    : RMSE: 9.04; hidden layer size: 43
+[2020-08-15 00:43:59,506] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:43:59,507] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->44->1) w/ 0.001 learning rate
+[2020-08-15 00:45:00,786] chlorophyll.nn       INFO    : optimization took 1.506e+03 seconds
+[2020-08-15 00:45:00,787] chlorophyll.nn       INFO    : RMSE: 10.2; hidden layer size: 44
+[2020-08-15 00:45:00,787] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:45:00,788] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->45->1) w/ 0.001 learning rate
+[2020-08-15 00:46:01,984] chlorophyll.nn       INFO    : optimization took 1.567e+03 seconds
+[2020-08-15 00:46:01,984] chlorophyll.nn       INFO    : RMSE: 7.85; hidden layer size: 45
+[2020-08-15 00:46:01,984] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:46:01,985] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->46->1) w/ 0.001 learning rate
+[2020-08-15 00:47:03,460] chlorophyll.nn       INFO    : optimization took 1.629e+03 seconds
+[2020-08-15 00:47:03,460] chlorophyll.nn       INFO    : RMSE: 7.72; hidden layer size: 46
+[2020-08-15 00:47:03,460] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:47:03,461] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->47->1) w/ 0.001 learning rate
+[2020-08-15 00:48:05,480] chlorophyll.nn       INFO    : optimization took 1.691e+03 seconds
+[2020-08-15 00:48:05,480] chlorophyll.nn       INFO    : RMSE: 8.42; hidden layer size: 47
+[2020-08-15 00:48:05,480] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:48:05,481] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->48->1) w/ 0.001 learning rate
+[2020-08-15 00:49:08,761] chlorophyll.nn       INFO    : optimization took 1.754e+03 seconds
+[2020-08-15 00:49:08,761] chlorophyll.nn       INFO    : RMSE: 7.88; hidden layer size: 48
+[2020-08-15 00:49:08,762] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:49:08,763] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->49->1) w/ 0.001 learning rate
+[2020-08-15 00:50:13,805] chlorophyll.nn       INFO    : optimization took 1.819e+03 seconds
+[2020-08-15 00:50:13,805] chlorophyll.nn       INFO    : RMSE: 8.21; hidden layer size: 49
+[2020-08-15 00:50:13,805] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:50:13,806] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->50->1) w/ 0.001 learning rate
+[2020-08-15 00:51:20,284] chlorophyll.nn       INFO    : optimization took 1.886e+03 seconds
+[2020-08-15 00:51:20,284] chlorophyll.nn       INFO    : RMSE: 8.76; hidden layer size: 50
+[2020-08-15 00:51:20,284] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:51:20,286] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->51->1) w/ 0.001 learning rate
+[2020-08-15 00:52:27,615] chlorophyll.nn       INFO    : optimization took 1.953e+03 seconds
+[2020-08-15 00:52:27,615] chlorophyll.nn       INFO    : RMSE: 8.82; hidden layer size: 51
+[2020-08-15 00:52:27,615] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:52:27,616] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->52->1) w/ 0.001 learning rate
+[2020-08-15 00:53:35,355] chlorophyll.nn       INFO    : optimization took 2.021e+03 seconds
+[2020-08-15 00:53:35,355] chlorophyll.nn       INFO    : RMSE: 10.1; hidden layer size: 52
+[2020-08-15 00:53:35,355] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:53:35,356] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->53->1) w/ 0.001 learning rate
+[2020-08-15 00:54:43,375] chlorophyll.nn       INFO    : optimization took 2.089e+03 seconds
+[2020-08-15 00:54:43,375] chlorophyll.nn       INFO    : RMSE: 7.56; hidden layer size: 53
+[2020-08-15 00:54:43,375] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:54:43,376] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->54->1) w/ 0.001 learning rate
+[2020-08-15 00:55:52,752] chlorophyll.nn       INFO    : optimization took 2.158e+03 seconds
+[2020-08-15 00:55:52,753] chlorophyll.nn       INFO    : RMSE: 9.31; hidden layer size: 54
+[2020-08-15 00:55:52,753] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:55:52,754] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->55->1) w/ 0.001 learning rate
+[2020-08-15 00:57:02,131] chlorophyll.nn       INFO    : optimization took 2.228e+03 seconds
+[2020-08-15 00:57:02,131] chlorophyll.nn       INFO    : RMSE: 7.14; hidden layer size: 55
+[2020-08-15 00:57:02,131] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:57:02,132] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->56->1) w/ 0.001 learning rate
+[2020-08-15 00:58:12,434] chlorophyll.nn       INFO    : optimization took 2.298e+03 seconds
+[2020-08-15 00:58:12,434] chlorophyll.nn       INFO    : RMSE: 7.47; hidden layer size: 56
+[2020-08-15 00:58:12,434] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:58:12,435] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->57->1) w/ 0.001 learning rate
+[2020-08-15 00:59:22,479] chlorophyll.nn       INFO    : optimization took 2.368e+03 seconds
+[2020-08-15 00:59:22,480] chlorophyll.nn       INFO    : RMSE: 8.82; hidden layer size: 57
+[2020-08-15 00:59:22,480] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 00:59:22,481] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->58->1) w/ 0.001 learning rate
+[2020-08-15 01:00:33,882] chlorophyll.nn       INFO    : optimization took 2.439e+03 seconds
+[2020-08-15 01:00:33,882] chlorophyll.nn       INFO    : RMSE: 8.23; hidden layer size: 58
+[2020-08-15 01:00:33,882] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:00:33,883] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->59->1) w/ 0.001 learning rate
+[2020-08-15 01:01:45,245] chlorophyll.nn       INFO    : optimization took 2.511e+03 seconds
+[2020-08-15 01:01:45,245] chlorophyll.nn       INFO    : RMSE: 8.23; hidden layer size: 59
+[2020-08-15 01:01:45,245] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:01:45,246] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->60->1) w/ 0.001 learning rate
+[2020-08-15 01:02:58,089] chlorophyll.nn       INFO    : optimization took 2.584e+03 seconds
+[2020-08-15 01:02:58,089] chlorophyll.nn       INFO    : RMSE: 7.75; hidden layer size: 60
+[2020-08-15 01:02:58,089] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:02:58,090] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->61->1) w/ 0.001 learning rate
+[2020-08-15 01:04:11,005] chlorophyll.nn       INFO    : optimization took 2.656e+03 seconds
+[2020-08-15 01:04:11,006] chlorophyll.nn       INFO    : RMSE: 7.31; hidden layer size: 61
+[2020-08-15 01:04:11,006] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:04:11,007] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->62->1) w/ 0.001 learning rate
+[2020-08-15 01:05:24,852] chlorophyll.nn       INFO    : optimization took 2.73e+03 seconds
+[2020-08-15 01:05:24,852] chlorophyll.nn       INFO    : RMSE: 8.14; hidden layer size: 62
+[2020-08-15 01:05:24,852] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:05:24,853] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->63->1) w/ 0.001 learning rate
+[2020-08-15 01:06:39,149] chlorophyll.nn       INFO    : optimization took 2.805e+03 seconds
+[2020-08-15 01:06:39,149] chlorophyll.nn       INFO    : RMSE: 8.03; hidden layer size: 63
+[2020-08-15 01:06:39,149] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:06:39,150] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->64->1) w/ 0.001 learning rate
+[2020-08-15 01:07:52,049] chlorophyll.nn       INFO    : optimization took 2.878e+03 seconds
+[2020-08-15 01:07:52,049] chlorophyll.nn       INFO    : RMSE: 8.57; hidden layer size: 64
+[2020-08-15 01:07:52,049] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:07:52,051] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->65->1) w/ 0.001 learning rate
+[2020-08-15 01:09:18,558] chlorophyll.nn       INFO    : optimization took 2.964e+03 seconds
+[2020-08-15 01:09:18,558] chlorophyll.nn       INFO    : RMSE: 9.89; hidden layer size: 65
+[2020-08-15 01:09:18,558] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:09:18,559] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->66->1) w/ 0.001 learning rate
+[2020-08-15 01:10:45,455] chlorophyll.nn       INFO    : optimization took 3.051e+03 seconds
+[2020-08-15 01:10:45,455] chlorophyll.nn       INFO    : RMSE: 8.37; hidden layer size: 66
+[2020-08-15 01:10:45,455] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:10:45,456] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->67->1) w/ 0.001 learning rate
+[2020-08-15 01:12:13,396] chlorophyll.nn       INFO    : optimization took 3.139e+03 seconds
+[2020-08-15 01:12:13,396] chlorophyll.nn       INFO    : RMSE: 7.21; hidden layer size: 67
+[2020-08-15 01:12:13,396] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:12:13,397] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->68->1) w/ 0.001 learning rate
+[2020-08-15 01:13:42,043] chlorophyll.nn       INFO    : optimization took 3.227e+03 seconds
+[2020-08-15 01:13:42,043] chlorophyll.nn       INFO    : RMSE: 8.47; hidden layer size: 68
+[2020-08-15 01:13:42,043] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:13:42,044] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->69->1) w/ 0.001 learning rate
+[2020-08-15 01:15:11,469] chlorophyll.nn       INFO    : optimization took 3.317e+03 seconds
+[2020-08-15 01:15:11,469] chlorophyll.nn       INFO    : RMSE: 7.13; hidden layer size: 69
+[2020-08-15 01:15:11,469] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:15:11,470] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->70->1) w/ 0.001 learning rate
+[2020-08-15 01:16:41,284] chlorophyll.nn       INFO    : optimization took 3.407e+03 seconds
+[2020-08-15 01:16:41,284] chlorophyll.nn       INFO    : RMSE: 7.63; hidden layer size: 70
+[2020-08-15 01:16:41,284] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:16:41,285] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->71->1) w/ 0.001 learning rate
+[2020-08-15 01:18:11,265] chlorophyll.nn       INFO    : optimization took 3.497e+03 seconds
+[2020-08-15 01:18:11,265] chlorophyll.nn       INFO    : RMSE: 7.45; hidden layer size: 71
+[2020-08-15 01:18:11,265] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:18:11,266] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->72->1) w/ 0.001 learning rate
+[2020-08-15 01:19:42,399] chlorophyll.nn       INFO    : optimization took 3.588e+03 seconds
+[2020-08-15 01:19:42,399] chlorophyll.nn       INFO    : RMSE: 7.13; hidden layer size: 72
+[2020-08-15 01:19:42,399] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:19:42,400] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->73->1) w/ 0.001 learning rate
+[2020-08-15 01:21:14,696] chlorophyll.nn       INFO    : optimization took 3.68e+03 seconds
+[2020-08-15 01:21:14,696] chlorophyll.nn       INFO    : RMSE: 7.15; hidden layer size: 73
+[2020-08-15 01:21:14,696] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:21:14,697] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->74->1) w/ 0.001 learning rate
+[2020-08-15 01:22:47,369] chlorophyll.nn       INFO    : optimization took 3.773e+03 seconds
+[2020-08-15 01:22:47,369] chlorophyll.nn       INFO    : RMSE: 8.96; hidden layer size: 74
+[2020-08-15 01:22:47,370] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:22:47,371] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->75->1) w/ 0.001 learning rate
+[2020-08-15 01:24:20,904] chlorophyll.nn       INFO    : optimization took 3.866e+03 seconds
+[2020-08-15 01:24:20,904] chlorophyll.nn       INFO    : RMSE: 7.15; hidden layer size: 75
+[2020-08-15 01:24:20,904] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:24:20,905] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->76->1) w/ 0.001 learning rate
+[2020-08-15 01:25:55,498] chlorophyll.nn       INFO    : optimization took 3.961e+03 seconds
+[2020-08-15 01:25:55,498] chlorophyll.nn       INFO    : RMSE: 9.0; hidden layer size: 76
+[2020-08-15 01:25:55,498] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:25:55,499] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->77->1) w/ 0.001 learning rate
+[2020-08-15 01:27:30,564] chlorophyll.nn       INFO    : optimization took 4.056e+03 seconds
+[2020-08-15 01:27:30,564] chlorophyll.nn       INFO    : RMSE: 7.13; hidden layer size: 77
+[2020-08-15 01:27:30,564] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:27:30,565] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->78->1) w/ 0.001 learning rate
+[2020-08-15 01:29:05,784] chlorophyll.nn       INFO    : optimization took 4.151e+03 seconds
+[2020-08-15 01:29:05,784] chlorophyll.nn       INFO    : RMSE: 7.13; hidden layer size: 78
+[2020-08-15 01:29:05,784] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:29:05,785] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->79->1) w/ 0.001 learning rate
+[2020-08-15 01:30:42,225] chlorophyll.nn       INFO    : optimization took 4.248e+03 seconds
+[2020-08-15 01:30:42,225] chlorophyll.nn       INFO    : RMSE: 7.26; hidden layer size: 79
+[2020-08-15 01:30:42,225] chlorophyll.nn       INFO    : lowest RMSE: 6.89; hidden layer size of lowest RMSE: 15
+[2020-08-15 01:30:42,226] chlorophyll.nn       INFO    : standard deviation of validation chlorophyll:            9.383413115176625
+[2020-08-15 01:30:42,226] chlorophyll.nn       INFO    : model with lowest RMSE (6.886320200108461) had a hidden layer size of 15
+[2020-08-15 07:29:27,085] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->12->1) w/ 0.001 learning rate
+[2020-08-15 07:29:56,159] chlorophyll.nn       INFO    : optimization took 29.08 seconds
+[2020-08-15 07:29:56,159] chlorophyll.nn       INFO    : RMSE: 8.76; hidden layer size: 12
+[2020-08-15 07:29:56,159] chlorophyll.nn       INFO    : lowest RMSE: 8.76; hidden layer size of lowest RMSE: 12
+[2020-08-15 07:29:56,161] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->13->1) w/ 0.001 learning rate
+[2020-08-15 07:30:24,667] chlorophyll.nn       INFO    : optimization took 57.59 seconds
+[2020-08-15 07:30:24,667] chlorophyll.nn       INFO    : RMSE: 7.47; hidden layer size: 13
+[2020-08-15 07:30:24,667] chlorophyll.nn       INFO    : lowest RMSE: 7.47; hidden layer size of lowest RMSE: 13
+[2020-08-15 07:30:24,669] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->14->1) w/ 0.001 learning rate
+[2020-08-15 07:30:54,408] chlorophyll.nn       INFO    : optimization took 87.33 seconds
+[2020-08-15 07:30:54,408] chlorophyll.nn       INFO    : RMSE: 7.4; hidden layer size: 14
+[2020-08-15 07:30:54,409] chlorophyll.nn       INFO    : lowest RMSE: 7.4; hidden layer size of lowest RMSE: 14
+[2020-08-15 07:30:54,410] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->15->1) w/ 0.001 learning rate
+[2020-08-15 07:31:24,609] chlorophyll.nn       INFO    : optimization took 117.5 seconds
+[2020-08-15 07:31:24,609] chlorophyll.nn       INFO    : RMSE: 6.95; hidden layer size: 15
+[2020-08-15 07:31:24,609] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:31:24,610] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->16->1) w/ 0.001 learning rate
+[2020-08-15 07:31:57,791] chlorophyll.nn       INFO    : optimization took 150.7 seconds
+[2020-08-15 07:31:57,791] chlorophyll.nn       INFO    : RMSE: 10.9; hidden layer size: 16
+[2020-08-15 07:31:57,791] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:31:57,792] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->17->1) w/ 0.001 learning rate
+[2020-08-15 07:32:30,128] chlorophyll.nn       INFO    : optimization took 183.0 seconds
+[2020-08-15 07:32:30,128] chlorophyll.nn       INFO    : RMSE: 10.7; hidden layer size: 17
+[2020-08-15 07:32:30,129] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:32:30,130] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->18->1) w/ 0.001 learning rate
+[2020-08-15 07:33:03,941] chlorophyll.nn       INFO    : optimization took 216.9 seconds
+[2020-08-15 07:33:03,941] chlorophyll.nn       INFO    : RMSE: 9.29; hidden layer size: 18
+[2020-08-15 07:33:03,941] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:33:03,942] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->19->1) w/ 0.001 learning rate
+[2020-08-15 07:33:37,815] chlorophyll.nn       INFO    : optimization took 250.7 seconds
+[2020-08-15 07:33:37,816] chlorophyll.nn       INFO    : RMSE: 10.7; hidden layer size: 19
+[2020-08-15 07:33:37,816] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:33:37,817] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->20->1) w/ 0.001 learning rate
+[2020-08-15 07:34:13,318] chlorophyll.nn       INFO    : optimization took 286.2 seconds
+[2020-08-15 07:34:13,318] chlorophyll.nn       INFO    : RMSE: 10.9; hidden layer size: 20
+[2020-08-15 07:34:13,318] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:34:13,319] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->21->1) w/ 0.001 learning rate
+[2020-08-15 07:34:48,654] chlorophyll.nn       INFO    : optimization took 321.6 seconds
+[2020-08-15 07:34:48,654] chlorophyll.nn       INFO    : RMSE: 11.0; hidden layer size: 21
+[2020-08-15 07:34:48,654] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:34:48,655] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->22->1) w/ 0.001 learning rate
+[2020-08-15 07:35:24,547] chlorophyll.nn       INFO    : optimization took 357.5 seconds
+[2020-08-15 07:35:24,547] chlorophyll.nn       INFO    : RMSE: 11.1; hidden layer size: 22
+[2020-08-15 07:35:24,547] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:35:24,548] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->23->1) w/ 0.001 learning rate
+[2020-08-15 07:36:00,972] chlorophyll.nn       INFO    : optimization took 393.9 seconds
+[2020-08-15 07:36:00,972] chlorophyll.nn       INFO    : RMSE: 10.4; hidden layer size: 23
+[2020-08-15 07:36:00,972] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:36:00,973] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->24->1) w/ 0.001 learning rate
+[2020-08-15 07:36:41,053] chlorophyll.nn       INFO    : optimization took 434.0 seconds
+[2020-08-15 07:36:41,053] chlorophyll.nn       INFO    : RMSE: 10.9; hidden layer size: 24
+[2020-08-15 07:36:41,053] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:36:41,054] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->25->1) w/ 0.001 learning rate
+[2020-08-15 07:37:19,104] chlorophyll.nn       INFO    : optimization took 472.0 seconds
+[2020-08-15 07:37:19,104] chlorophyll.nn       INFO    : RMSE: 10.4; hidden layer size: 25
+[2020-08-15 07:37:19,104] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:37:19,105] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->26->1) w/ 0.001 learning rate
+[2020-08-15 07:37:58,237] chlorophyll.nn       INFO    : optimization took 511.2 seconds
+[2020-08-15 07:37:58,237] chlorophyll.nn       INFO    : RMSE: 10.4; hidden layer size: 26
+[2020-08-15 07:37:58,238] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:37:58,238] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->27->1) w/ 0.001 learning rate
+[2020-08-15 07:38:37,445] chlorophyll.nn       INFO    : optimization took 550.4 seconds
+[2020-08-15 07:38:37,445] chlorophyll.nn       INFO    : RMSE: 9.02; hidden layer size: 27
+[2020-08-15 07:38:37,446] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:38:37,447] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->28->1) w/ 0.001 learning rate
+[2020-08-15 07:39:17,788] chlorophyll.nn       INFO    : optimization took 590.7 seconds
+[2020-08-15 07:39:17,788] chlorophyll.nn       INFO    : RMSE: 10.8; hidden layer size: 28
+[2020-08-15 07:39:17,789] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:39:17,790] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->29->1) w/ 0.001 learning rate
+[2020-08-15 07:39:58,220] chlorophyll.nn       INFO    : optimization took 631.1 seconds
+[2020-08-15 07:39:58,220] chlorophyll.nn       INFO    : RMSE: 11.0; hidden layer size: 29
+[2020-08-15 07:39:58,220] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:39:58,221] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->30->1) w/ 0.001 learning rate
+[2020-08-15 07:40:39,437] chlorophyll.nn       INFO    : optimization took 672.4 seconds
+[2020-08-15 07:40:39,438] chlorophyll.nn       INFO    : RMSE: 9.92; hidden layer size: 30
+[2020-08-15 07:40:39,438] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:40:39,439] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->31->1) w/ 0.001 learning rate
+[2020-08-15 07:41:21,143] chlorophyll.nn       INFO    : optimization took 714.1 seconds
+[2020-08-15 07:41:21,143] chlorophyll.nn       INFO    : RMSE: 7.32; hidden layer size: 31
+[2020-08-15 07:41:21,143] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:41:21,145] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->32->1) w/ 0.001 learning rate
+[2020-08-15 07:42:02,186] chlorophyll.nn       INFO    : optimization took 755.1 seconds
+[2020-08-15 07:42:02,186] chlorophyll.nn       INFO    : RMSE: 7.24; hidden layer size: 32
+[2020-08-15 07:42:02,186] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:42:02,187] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->33->1) w/ 0.001 learning rate
+[2020-08-15 07:42:51,748] chlorophyll.nn       INFO    : optimization took 804.7 seconds
+[2020-08-15 07:42:51,748] chlorophyll.nn       INFO    : RMSE: 10.5; hidden layer size: 33
+[2020-08-15 07:42:51,749] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:42:51,750] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->34->1) w/ 0.001 learning rate
+[2020-08-15 07:43:42,178] chlorophyll.nn       INFO    : optimization took 855.1 seconds
+[2020-08-15 07:43:42,178] chlorophyll.nn       INFO    : RMSE: 7.37; hidden layer size: 34
+[2020-08-15 07:43:42,178] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:43:42,179] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->35->1) w/ 0.001 learning rate
+[2020-08-15 07:44:33,796] chlorophyll.nn       INFO    : optimization took 906.7 seconds
+[2020-08-15 07:44:33,797] chlorophyll.nn       INFO    : RMSE: 8.98; hidden layer size: 35
+[2020-08-15 07:44:33,797] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:44:33,798] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->36->1) w/ 0.001 learning rate
+[2020-08-15 07:45:26,895] chlorophyll.nn       INFO    : optimization took 959.8 seconds
+[2020-08-15 07:45:26,895] chlorophyll.nn       INFO    : RMSE: 9.61; hidden layer size: 36
+[2020-08-15 07:45:26,896] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:45:26,897] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->37->1) w/ 0.001 learning rate
+[2020-08-15 07:46:19,630] chlorophyll.nn       INFO    : optimization took 1.013e+03 seconds
+[2020-08-15 07:46:19,630] chlorophyll.nn       INFO    : RMSE: 7.36; hidden layer size: 37
+[2020-08-15 07:46:19,631] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:46:19,632] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->38->1) w/ 0.001 learning rate
+[2020-08-15 07:47:12,316] chlorophyll.nn       INFO    : optimization took 1.065e+03 seconds
+[2020-08-15 07:47:12,317] chlorophyll.nn       INFO    : RMSE: 9.55; hidden layer size: 38
+[2020-08-15 07:47:12,317] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:47:12,318] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->39->1) w/ 0.001 learning rate
+[2020-08-15 07:48:05,472] chlorophyll.nn       INFO    : optimization took 1.118e+03 seconds
+[2020-08-15 07:48:05,472] chlorophyll.nn       INFO    : RMSE: 10.5; hidden layer size: 39
+[2020-08-15 07:48:05,472] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:48:05,473] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->40->1) w/ 0.001 learning rate
+[2020-08-15 07:49:00,639] chlorophyll.nn       INFO    : optimization took 1.174e+03 seconds
+[2020-08-15 07:49:00,639] chlorophyll.nn       INFO    : RMSE: 9.41; hidden layer size: 40
+[2020-08-15 07:49:00,639] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:49:00,641] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->41->1) w/ 0.001 learning rate
+[2020-08-15 07:49:54,870] chlorophyll.nn       INFO    : optimization took 1.228e+03 seconds
+[2020-08-15 07:49:54,870] chlorophyll.nn       INFO    : RMSE: 10.0; hidden layer size: 41
+[2020-08-15 07:49:54,870] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:49:54,871] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->42->1) w/ 0.001 learning rate
+[2020-08-15 07:50:49,958] chlorophyll.nn       INFO    : optimization took 1.283e+03 seconds
+[2020-08-15 07:50:49,958] chlorophyll.nn       INFO    : RMSE: 10.1; hidden layer size: 42
+[2020-08-15 07:50:49,958] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:50:49,959] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->43->1) w/ 0.001 learning rate
+[2020-08-15 07:51:45,476] chlorophyll.nn       INFO    : optimization took 1.338e+03 seconds
+[2020-08-15 07:51:45,476] chlorophyll.nn       INFO    : RMSE: 7.96; hidden layer size: 43
+[2020-08-15 07:51:45,476] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:51:45,477] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->44->1) w/ 0.001 learning rate
+[2020-08-15 07:52:42,060] chlorophyll.nn       INFO    : optimization took 1.395e+03 seconds
+[2020-08-15 07:52:42,060] chlorophyll.nn       INFO    : RMSE: 7.36; hidden layer size: 44
+[2020-08-15 07:52:42,060] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:52:42,062] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->45->1) w/ 0.001 learning rate
+[2020-08-15 07:53:38,733] chlorophyll.nn       INFO    : optimization took 1.452e+03 seconds
+[2020-08-15 07:53:38,733] chlorophyll.nn       INFO    : RMSE: 8.43; hidden layer size: 45
+[2020-08-15 07:53:38,733] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:53:38,735] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->46->1) w/ 0.001 learning rate
+[2020-08-15 07:54:35,724] chlorophyll.nn       INFO    : optimization took 1.509e+03 seconds
+[2020-08-15 07:54:35,724] chlorophyll.nn       INFO    : RMSE: 8.16; hidden layer size: 46
+[2020-08-15 07:54:35,724] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:54:35,725] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->47->1) w/ 0.001 learning rate
+[2020-08-15 07:55:33,348] chlorophyll.nn       INFO    : optimization took 1.566e+03 seconds
+[2020-08-15 07:55:33,349] chlorophyll.nn       INFO    : RMSE: 9.27; hidden layer size: 47
+[2020-08-15 07:55:33,349] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:55:33,350] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->48->1) w/ 0.001 learning rate
+[2020-08-15 07:56:32,039] chlorophyll.nn       INFO    : optimization took 1.625e+03 seconds
+[2020-08-15 07:56:32,039] chlorophyll.nn       INFO    : RMSE: 7.88; hidden layer size: 48
+[2020-08-15 07:56:32,040] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:56:32,041] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->49->1) w/ 0.001 learning rate
+[2020-08-15 07:57:32,263] chlorophyll.nn       INFO    : optimization took 1.685e+03 seconds
+[2020-08-15 07:57:32,264] chlorophyll.nn       INFO    : RMSE: 8.49; hidden layer size: 49
+[2020-08-15 07:57:32,264] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:57:32,265] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->50->1) w/ 0.001 learning rate
+[2020-08-15 07:58:33,632] chlorophyll.nn       INFO    : optimization took 1.747e+03 seconds
+[2020-08-15 07:58:33,632] chlorophyll.nn       INFO    : RMSE: 9.86; hidden layer size: 50
+[2020-08-15 07:58:33,632] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:58:33,634] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->51->1) w/ 0.001 learning rate
+[2020-08-15 07:59:35,975] chlorophyll.nn       INFO    : optimization took 1.809e+03 seconds
+[2020-08-15 07:59:35,976] chlorophyll.nn       INFO    : RMSE: 7.33; hidden layer size: 51
+[2020-08-15 07:59:35,976] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 07:59:35,977] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->52->1) w/ 0.001 learning rate
+[2020-08-15 08:00:38,954] chlorophyll.nn       INFO    : optimization took 1.872e+03 seconds
+[2020-08-15 08:00:38,954] chlorophyll.nn       INFO    : RMSE: 7.33; hidden layer size: 52
+[2020-08-15 08:00:38,954] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:00:38,955] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->53->1) w/ 0.001 learning rate
+[2020-08-15 08:01:41,858] chlorophyll.nn       INFO    : optimization took 1.935e+03 seconds
+[2020-08-15 08:01:41,858] chlorophyll.nn       INFO    : RMSE: 9.54; hidden layer size: 53
+[2020-08-15 08:01:41,858] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:01:41,859] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->54->1) w/ 0.001 learning rate
+[2020-08-15 08:02:46,254] chlorophyll.nn       INFO    : optimization took 1.999e+03 seconds
+[2020-08-15 08:02:46,254] chlorophyll.nn       INFO    : RMSE: 8.99; hidden layer size: 54
+[2020-08-15 08:02:46,254] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:02:46,256] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->55->1) w/ 0.001 learning rate
+[2020-08-15 08:03:50,816] chlorophyll.nn       INFO    : optimization took 2.064e+03 seconds
+[2020-08-15 08:03:50,816] chlorophyll.nn       INFO    : RMSE: 7.19; hidden layer size: 55
+[2020-08-15 08:03:50,817] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:03:50,818] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->56->1) w/ 0.001 learning rate
+[2020-08-15 08:04:56,667] chlorophyll.nn       INFO    : optimization took 2.13e+03 seconds
+[2020-08-15 08:04:56,667] chlorophyll.nn       INFO    : RMSE: 7.13; hidden layer size: 56
+[2020-08-15 08:04:56,667] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:04:56,668] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->57->1) w/ 0.001 learning rate
+[2020-08-15 08:06:02,091] chlorophyll.nn       INFO    : optimization took 2.195e+03 seconds
+[2020-08-15 08:06:02,091] chlorophyll.nn       INFO    : RMSE: 7.36; hidden layer size: 57
+[2020-08-15 08:06:02,091] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:06:02,092] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->58->1) w/ 0.001 learning rate
+[2020-08-15 08:07:09,127] chlorophyll.nn       INFO    : optimization took 2.262e+03 seconds
+[2020-08-15 08:07:09,127] chlorophyll.nn       INFO    : RMSE: 7.23; hidden layer size: 58
+[2020-08-15 08:07:09,127] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:07:09,128] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->59->1) w/ 0.001 learning rate
+[2020-08-15 08:08:16,137] chlorophyll.nn       INFO    : optimization took 2.329e+03 seconds
+[2020-08-15 08:08:16,137] chlorophyll.nn       INFO    : RMSE: 7.3; hidden layer size: 59
+[2020-08-15 08:08:16,137] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:08:16,138] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->60->1) w/ 0.001 learning rate
+[2020-08-15 08:09:24,395] chlorophyll.nn       INFO    : optimization took 2.397e+03 seconds
+[2020-08-15 08:09:24,396] chlorophyll.nn       INFO    : RMSE: 7.73; hidden layer size: 60
+[2020-08-15 08:09:24,396] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:09:24,397] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->61->1) w/ 0.001 learning rate
+[2020-08-15 08:10:32,966] chlorophyll.nn       INFO    : optimization took 2.466e+03 seconds
+[2020-08-15 08:10:32,967] chlorophyll.nn       INFO    : RMSE: 7.35; hidden layer size: 61
+[2020-08-15 08:10:32,967] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:10:32,968] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->62->1) w/ 0.001 learning rate
+[2020-08-15 08:11:42,431] chlorophyll.nn       INFO    : optimization took 2.535e+03 seconds
+[2020-08-15 08:11:42,431] chlorophyll.nn       INFO    : RMSE: 7.14; hidden layer size: 62
+[2020-08-15 08:11:42,431] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:11:42,432] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->63->1) w/ 0.001 learning rate
+[2020-08-15 08:12:52,430] chlorophyll.nn       INFO    : optimization took 2.605e+03 seconds
+[2020-08-15 08:12:52,430] chlorophyll.nn       INFO    : RMSE: 7.14; hidden layer size: 63
+[2020-08-15 08:12:52,430] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:12:52,431] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->64->1) w/ 0.001 learning rate
+[2020-08-15 08:14:01,750] chlorophyll.nn       INFO    : optimization took 2.675e+03 seconds
+[2020-08-15 08:14:01,750] chlorophyll.nn       INFO    : RMSE: 9.26; hidden layer size: 64
+[2020-08-15 08:14:01,750] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:14:01,752] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->65->1) w/ 0.001 learning rate
+[2020-08-15 08:15:21,052] chlorophyll.nn       INFO    : optimization took 2.754e+03 seconds
+[2020-08-15 08:15:21,052] chlorophyll.nn       INFO    : RMSE: 9.34; hidden layer size: 65
+[2020-08-15 08:15:21,052] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:15:21,053] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->66->1) w/ 0.001 learning rate
+[2020-08-15 08:16:40,892] chlorophyll.nn       INFO    : optimization took 2.834e+03 seconds
+[2020-08-15 08:16:40,893] chlorophyll.nn       INFO    : RMSE: 7.16; hidden layer size: 66
+[2020-08-15 08:16:40,893] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:16:40,894] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->67->1) w/ 0.001 learning rate
+[2020-08-15 08:18:01,250] chlorophyll.nn       INFO    : optimization took 2.914e+03 seconds
+[2020-08-15 08:18:01,251] chlorophyll.nn       INFO    : RMSE: 7.5; hidden layer size: 67
+[2020-08-15 08:18:01,251] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:18:01,252] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->68->1) w/ 0.001 learning rate
+[2020-08-15 08:19:22,538] chlorophyll.nn       INFO    : optimization took 2.995e+03 seconds
+[2020-08-15 08:19:22,538] chlorophyll.nn       INFO    : RMSE: 7.13; hidden layer size: 68
+[2020-08-15 08:19:22,538] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:19:22,539] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->69->1) w/ 0.001 learning rate
+[2020-08-15 08:20:44,463] chlorophyll.nn       INFO    : optimization took 3.077e+03 seconds
+[2020-08-15 08:20:44,463] chlorophyll.nn       INFO    : RMSE: 9.47; hidden layer size: 69
+[2020-08-15 08:20:44,463] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:20:44,464] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->70->1) w/ 0.001 learning rate
+[2020-08-15 08:22:07,007] chlorophyll.nn       INFO    : optimization took 3.16e+03 seconds
+[2020-08-15 08:22:07,007] chlorophyll.nn       INFO    : RMSE: 7.16; hidden layer size: 70
+[2020-08-15 08:22:07,007] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:22:07,008] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->71->1) w/ 0.001 learning rate
+[2020-08-15 08:23:30,385] chlorophyll.nn       INFO    : optimization took 3.243e+03 seconds
+[2020-08-15 08:23:30,385] chlorophyll.nn       INFO    : RMSE: 7.26; hidden layer size: 71
+[2020-08-15 08:23:30,385] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:23:30,386] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->72->1) w/ 0.001 learning rate
+[2020-08-15 08:24:54,971] chlorophyll.nn       INFO    : optimization took 3.328e+03 seconds
+[2020-08-15 08:24:54,972] chlorophyll.nn       INFO    : RMSE: 8.61; hidden layer size: 72
+[2020-08-15 08:24:54,972] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:24:54,973] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->73->1) w/ 0.001 learning rate
+[2020-08-15 08:26:20,652] chlorophyll.nn       INFO    : optimization took 3.414e+03 seconds
+[2020-08-15 08:26:20,652] chlorophyll.nn       INFO    : RMSE: 7.98; hidden layer size: 73
+[2020-08-15 08:26:20,652] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:26:20,653] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->74->1) w/ 0.001 learning rate
+[2020-08-15 08:27:46,668] chlorophyll.nn       INFO    : optimization took 3.5e+03 seconds
+[2020-08-15 08:27:46,669] chlorophyll.nn       INFO    : RMSE: 7.49; hidden layer size: 74
+[2020-08-15 08:27:46,669] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:27:46,670] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->75->1) w/ 0.001 learning rate
+[2020-08-15 08:29:13,785] chlorophyll.nn       INFO    : optimization took 3.587e+03 seconds
+[2020-08-15 08:29:13,785] chlorophyll.nn       INFO    : RMSE: 7.27; hidden layer size: 75
+[2020-08-15 08:29:13,785] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:29:13,786] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->76->1) w/ 0.001 learning rate
+[2020-08-15 08:30:42,165] chlorophyll.nn       INFO    : optimization took 3.675e+03 seconds
+[2020-08-15 08:30:42,165] chlorophyll.nn       INFO    : RMSE: 8.15; hidden layer size: 76
+[2020-08-15 08:30:42,165] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:30:42,166] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->77->1) w/ 0.001 learning rate
+[2020-08-15 08:32:10,920] chlorophyll.nn       INFO    : optimization took 3.764e+03 seconds
+[2020-08-15 08:32:10,920] chlorophyll.nn       INFO    : RMSE: 7.69; hidden layer size: 77
+[2020-08-15 08:32:10,920] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:32:10,921] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->78->1) w/ 0.001 learning rate
+[2020-08-15 08:33:40,113] chlorophyll.nn       INFO    : optimization took 3.853e+03 seconds
+[2020-08-15 08:33:40,113] chlorophyll.nn       INFO    : RMSE: 8.5; hidden layer size: 78
+[2020-08-15 08:33:40,113] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:33:40,114] chlorophyll.nn       INFO    : starting 10000 optimization passes on NN model (16->79->1) w/ 0.001 learning rate
+[2020-08-15 08:35:09,992] chlorophyll.nn       INFO    : optimization took 3.943e+03 seconds
+[2020-08-15 08:35:09,992] chlorophyll.nn       INFO    : RMSE: 7.75; hidden layer size: 79
+[2020-08-15 08:35:09,992] chlorophyll.nn       INFO    : lowest RMSE: 6.95; hidden layer size of lowest RMSE: 15
+[2020-08-15 08:35:09,992] chlorophyll.nn       INFO    : standard deviation of validation chlorophyll:            9.383413115176625
+[2020-08-15 08:35:09,992] chlorophyll.nn       INFO    : model with lowest RMSE (6.9508084751274035) had a hidden layer size of 15
