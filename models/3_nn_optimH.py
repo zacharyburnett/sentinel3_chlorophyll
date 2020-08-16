@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 import math
 import os
 
-from matplotlib import pyplot
+from matplotlib import colors, pyplot
 import numpy
 import pandas
 import torch
@@ -64,7 +64,7 @@ if __name__ == '__main__':
     start_time = datetime.now()
 
     # hold times and RMSEs here for plotting later
-    times = [datetime.now()]
+    hidden_layer_sizes = [0]
     rmses = [0]
     lowest_rmse = numpy.Inf
     lowest_rmse_hidden_layer_size = None
@@ -111,7 +111,7 @@ if __name__ == '__main__':
         validation_rmse = numpy.sqrt(numpy.mean(numpy.square(validation_differences)))
 
         # collect data point every 100 iterations
-        times.append(datetime.now())
+        hidden_layer_size.append(hidden_layer_size)
         rmses.append(validation_rmse)
         LOGGER.info(f'optimization took {(datetime.now() - start_time) / timedelta(seconds=1):.4} seconds')
         LOGGER.info(f'RMSE: {validation_rmse:.3}; hidden layer size: {hidden_layer_size}')
@@ -133,17 +133,19 @@ if __name__ == '__main__':
     testing_data_frame.to_csv(OUTPUT_TESTING_CSV_FILENAME)
 
     # remove first dummy entries from times and losses
-    times = times[1:]
+    hidden_layer_sizes = hidden_layer_sizes[1:]
     rmses = rmses[1:]
+
+    color_map = pyplot.cm.viridis
+    color_normalizer = colors.Normalize(vmin=0, vmax=len(rmses))
 
     # plot loss and loss change rate over time
     figure = pyplot.figure()
-    figure.suptitle(f'NN RMSE vs size of (single) hidden layer w/ {passes} passes')
+    figure.suptitle(f'NN RMSE vs size of (single) hidden layer w/ {10000} passes')
     axis = figure.add_subplot(1, 1, 1)
-    axis.plot(times, rmses, label='RMSE')
-    axis.plot(times, numpy.concatenate(([0], numpy.diff(rmses))), label='RMSE dx')
-    axis.axhline(y=0, color='k', linestyle='--')
-    axis.legend()
+    axis.bar(hidden_layer_sizes, rmses, color=color_map(color_normalizer(rmses)))
+    axis.set_ylabel('RMSE')
+    axis.set_xlabel('hidden layer size')
     pyplot.show()
     pyplot.savefig('../notebooks/images/3_nn_optimH.png')
 
